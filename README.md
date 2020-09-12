@@ -19,7 +19,7 @@ See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_to
 Bill of Materials:
 
 - (1) Bento Macropad PCB
-- (1) Bento Macropad Case [model available on Thingiverse](https://www.thingiverse.com/thing:4594580)
+- (1) Bento Macropad Case [(model available on Thingiverse)](https://www.thingiverse.com/thing:4594580)
 - (1) Pro Micro or Pro Micro-equivalent controller
 - (1) EC11 Rotary Encoder
 - (1) Rotary Encoder Knob (for 6mm shaft)
