@@ -4,7 +4,7 @@
 ![Bento](https://i.imgur.com/Sd1PrTW.jpg)
 
 
-The Bento Macropad is a 5-key macropad designed by Dwin17 with PCB designed by coarse (keyboard.coarse.tech). 
+The Bento Macropad is a 5-key macropad with rotary encoder designed by Dwin17 with PCB designed by coarse (keyboard.coarse.tech). 
 
 Key features include:
 - Powered by QMK Firmware
