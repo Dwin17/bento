@@ -44,10 +44,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define ENCODERS_PAD_A {D1}
 #define ENCODERS_PAD_B {F5}
 
-//#define BACKLIGHT_PIN B5
-// #define BACKLIGHT_BREATHING
-//#define BACKLIGHT_LEVELS 7
-
 #define BACKLIGHT_PIN B6
 #define BACKLIGHT_LEVELS 7
 
