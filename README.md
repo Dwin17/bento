@@ -1,4 +1,4 @@
-# Bento-Macropad
+# Bento Macropad
 Bento Mechanical Keyboard Macropad
 
 
