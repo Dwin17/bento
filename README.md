@@ -28,7 +28,7 @@ See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_to
 - (1) EC11 Rotary Encoder
 - (1) Rotary Encoder Knob (for 6mm shaft)
 - (1) Reset Switch
-- (1) Strip of 3x WS2812B RGB LEDs
+- (1) Strip of WS2812B RGB LEDs
 - (5) Cherry MX-style switches
 - (5) Cherry-MX compatible keycaps
 
