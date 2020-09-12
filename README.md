@@ -39,3 +39,6 @@ See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_to
 - (6) 330 Ohm Resistor
 - (1) 10K Ohm Resistor
 - (1) MOSFET
+
+
+[Build Guide](https://imgur.com/a/0jkQ31g)
