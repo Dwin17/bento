@@ -1,5 +1,4 @@
 # Bento Macropad
-Bento Mechanical Keyboard Macropad
 
 
 ![Bento](https://i.imgur.com/Sd1PrTW.jpg)
