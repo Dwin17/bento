@@ -1,6 +1,10 @@
 # Bento-Macropad
 Bento Mechanical Keyboard Macropad
 
+
+![Bento](https://imgur.com/a/YrARySg)
+
+
 The Bento Macropad is a 5-key macropad designed by Dwin17 with PCB designed by coarse (keyboard.coarse.tech). 
 
 Key features include:
@@ -17,7 +21,7 @@ See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_to
 
 
 
-Bill of Materials:
+**[Bill of Materials]
 
 - (1) Bento Macropad PCB
 - (1) Bento Macropad Case [(model available on Thingiverse)](https://www.thingiverse.com/thing:4594580)
@@ -29,7 +33,7 @@ Bill of Materials:
 - (5) Cherry MX-style switches
 - (5) Cherry-MX compatible keycaps
 
-[Optional for LED lighting]
+**[Optional for LED lighting]
 
 - (5) Single color LED (2x3x4mm or 1.8mm)
 - (6) 330 Ohm Resistor
