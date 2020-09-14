@@ -40,4 +40,9 @@ See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_to
 - (1) MOSFET
 
 
-[Build Guide](https://imgur.com/a/0jkQ31g)
+[**Build Guide**](https://imgur.com/a/0jkQ31g)
+
+
+If you have received a built Bento Macropad from me, it will be flashed with this layout by default: 
+
+![Layout](https://i.imgur.com/mCU8cno.png)
