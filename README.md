@@ -31,6 +31,7 @@ See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_to
 - (1) Strip of WS2812B RGB LEDs
 - (5) Cherry MX-style switches
 - (5) Cherry-MX compatible keycaps
+- Lead wire (for RGB Underglow, not included in DIY kits)
 
 **[Optional for LED lighting]**
 
