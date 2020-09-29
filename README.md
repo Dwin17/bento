@@ -12,6 +12,8 @@ Key features include:
 - RGB Underglow
 - Per-key single color LEDs
 
+**[Flashing a new layout]**
+
 Make example for this keyboard (after setting up your build environment):
 
     make bento:default
