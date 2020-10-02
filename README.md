@@ -12,6 +12,8 @@ Key features include:
 - RGB Underglow
 - Per-key single color LEDs
 
+________________________________________________________________________________________________________________________________________________________________
+
 **[Flashing a new layout]**
 
 Make example for this keyboard (after setting up your build environment):
@@ -28,6 +30,7 @@ See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_to
 
 **To put your Bento into bootloader mode, please turn it over and press the reset button located through the cutout on the bottom plate.**
 
+________________________________________________________________________________________________________________________________________________________________
 
 **[Bill of Materials]**
 
@@ -49,6 +52,7 @@ See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_to
 - (1) 10K Ohm Resistor
 - (1) MOSFET
 
+________________________________________________________________________________________________________________________________________________________________
 
 [**Build Guide**](https://imgur.com/a/0jkQ31g)
 
