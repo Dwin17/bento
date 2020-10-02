@@ -26,6 +26,8 @@ See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_to
 [Video Guide to using QMK Toolbox to flash your macropad](https://www.youtube.com/watch?v=VR53Wo9Z960&t=1s)
 
 
+**To put your Bento into bootloader mode, please turn it over and press the reset button located through the cutout on the bottom plate. 
+
 
 **[Bill of Materials]**
 
