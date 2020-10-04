@@ -6,7 +6,7 @@
 
 The Bento Macropad is a 5-key macropad with rotary encoder designed by Dwin17 with PCB designed by coarse (keyboard.coarse.tech). 
 
-Key features include:
+**Key features include:**
 - Powered by QMK Firmware
 - EC11 Rotary Encoder
 - RGB Underglow
@@ -72,13 +72,13 @@ ________________________________________________________________________________
 
 * *I can't flash the Bento on QMK Toolbox!*
   - If you're seeing an error message along the lines of "*option requires an argument -- P*", please restart your computer and try flashing again.
-  - If it states that *No Device is Available*, please try my method:
-    - Open QMK Toolbox and select your Bento firmware (qmk.fm can be left blank)
+  - If it states that *No Device is Available*, please try my flashing method:
+    - Open QMK Toolbox and select your Bento firmware ("Keyboard for qmk.fm" can be left blank)
     - Check "Auto-Flash"
     - Press the Reset button on the bottom of the Bento twice quickly - but on the second press, hold it down for 3 seconds before letting go. 
     - After a few seconds, the Pro Micro should go into bootloader mode and automatically flash the firmware
-    - If this is not the case, repeat the previous steps. It may be helpful to unplug/replug the Bento and exit/reopen QMK Toolbox. Caution: It may take several tries to work.
- * *If it states that **Access is Denied** please try the method stated in the previous bullet point.*
+    - If this is not the case, repeat the previous steps. It may be helpful to unplug/replug the Bento and exit/reopen QMK Toolbox. Caution: It may take several tries to work         due to the finicky nature of Pro Micro clones.
+   - If it states that *Access is Denied* please try the method stated in the previous bullet point. Again, it may take several tries to work.
 
 ________________________________________________________________________________________________________________________________________________________________
 
