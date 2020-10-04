@@ -4,7 +4,7 @@
 ![Bento](https://i.imgur.com/Sd1PrTW.jpg)
 
 
-The Bento Macropad is a 5-key macropad with rotary encoder designed by Dwin17 with PCB designed by coarse (keyboard.coarse.tech). 
+The Bento Macropad is a 5-key macropad with rotary encoder designed by Dwin17 (Discord: **Dwin#3766**, Reddit: **nguyedt**) with PCB designed by coarse (keyboard.coarse.tech). 
 
 **Key features include:**
 - Powered by QMK Firmware
@@ -63,14 +63,16 @@ ________________________________________________________________________________
 
 **Troubleshooting Guide**
 
-* *My Bento isn't registering any keypresses!*
+* *My Bento isn't registering any keypresses*
   - Please ensure that your micro-USB cable is plugged all the way in and you are using a working USB port
   - The controller may have gotten loose during transit. Please take off the bottom plate and push the Pro Micro controller into the PCB to ensure that it is fully inserted.
 
-* *The keypresses work on some switches but not on others!*
-  - Please ensure that the Bento is flashed with the provided default firmware when testing for functionality. **DO NOT use QMK Configurator to create firmware for the Bento.**      The Bento located on QMK Configurator is only for the handwired version and will not work. Please refer to this [Video Guide for creating macropad firmware manually   https://www.youtube.com/watch?v=-HLV6mUxNnU&list=PLYEUsdlqPD2a3kzQgnF98Prj-4IzZJGYG).
+* *The keypresses work on some switches but not on others or my rotary encoder isn't working*
+  - Please ensure that the Bento is flashed with the provided default firmware when testing for functionality. **DO NOT use QMK Configurator to create firmware for the Bento.**      The Bento located on QMK Configurator is only for the handwired version and will not work for keypresses or the rotary encoder. Please refer to this [Video Guide for creating macropad firmware manually.](https://www.youtube.com/watch?v=-HLV6mUxNnU&list=PLYEUsdlqPD2a3kzQgnF98Prj-4IzZJGYG).
+  
+  **If you cannot build your own firmware, please contact me with a screenshot of your desired keymap and I can make the firmware for you.**
 
-* *I can't flash the Bento on QMK Toolbox!*
+* *I can't flash the Bento on QMK Toolbox*
   - If you're seeing an error message along the lines of "*option requires an argument -- P*", please restart your computer and try flashing again.
   - If it states that *No Device is Available*, please try my flashing method:
     - Open QMK Toolbox and select your Bento firmware ("Keyboard for qmk.fm" can be left blank)
@@ -79,7 +81,11 @@ ________________________________________________________________________________
     - After a few seconds, the Pro Micro should go into bootloader mode and automatically flash the firmware
     - If this is not the case, repeat the previous steps. It may be helpful to unplug/replug the Bento and exit/reopen QMK Toolbox. Caution: It may take several tries to work         due to the finicky nature of Pro Micro clones.
    - If it states that *Access is Denied* please try the method stated in the previous bullet point. Again, it may take several tries to work.
-
+   
+* *The RGB lights aren't working*
+  - Ensure that you have not turned it off on accident via a keypress.
+  - Make sure the Pro Micro is fully inserted by taking off the bottom plate and pushing the Pro Micro into the PCB. 
+  - The wiring for the lights may be damaged. Please contact me for further help.
 ________________________________________________________________________________________________________________________________________________________________
 
 **NOTE:** If you have received a built Bento Macropad from me, it will be flashed with this layout by default: 
