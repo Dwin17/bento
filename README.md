@@ -35,6 +35,7 @@ ________________________________________________________________________________
 **[Bill of Materials]**
 
 | Part | Quantity |
+| --- | --- |
 | Bento Macropad PCB | 1 |
 | Bento Macropad Case | 1 [(model available on Thingiverse)](https://www.thingiverse.com/thing:4594580) |
 | Pro Micro (or equivalent) | 1|
