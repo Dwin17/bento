@@ -34,24 +34,24 @@ ________________________________________________________________________________
 
 **[Bill of Materials]**
 
-- (1) Bento Macropad PCB
-- (1) Bento Macropad Case [(model available on Thingiverse)](https://www.thingiverse.com/thing:4594580)
-- (1) Pro Micro or Pro Micro-equivalent controller
-- (1) EC11 Rotary Encoder
-- (1) Rotary Encoder Knob (for 6mm shaft)
-- (1) Reset Switch
-- (1) Strip of WS2812B RGB LEDs
-- (5) Cherry MX-style switches
-- (5) Cherry-MX compatible keycaps
-- Lead wire (for RGB Underglow, not included in DIY kits)
+| Part | Quantity |
+| Bento Macropad PCB | 1 |
+| Bento Macropad Case | 1 [(model available on Thingiverse)](https://www.thingiverse.com/thing:4594580) |
+| Pro Micro (or equivalent) | 1|
+| EC11 Rotary Encoder | 1|
+| Rotary Encoder Knob (for 6mm shaft) | 1|
+| Reset Switch | 1|
+| Strip of 3x WS2812B RGB LEDs| 1|
+| Lead wire (for RGB underglow) | As required|
+| Cherry MX-compatible switches | 5|
+| Cherry MX-compatible keycaps | 5|
 
 **[Optional for LED lighting]**
 
-- (5) Single color LED (2x3x4mm or 1.8mm)
-- (6) 330 Ohm Resistor
-- (1) 10K Ohm Resistor
-- (1) MOSFET
-
+| Single color LED (2x3x4mm or 1.8mm)| 5|
+| 330 Ohm Resistor | 6|
+| 10k Ohm Resistor |1|
+| MOSFET | 1| 
 ________________________________________________________________________________________________________________________________________________________________
 
 [**Build Guide**](https://imgur.com/a/0jkQ31g)
