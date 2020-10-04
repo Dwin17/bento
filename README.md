@@ -14,7 +14,7 @@ Key features include:
 
 ________________________________________________________________________________________________________________________________________________________________
 
-**[Flashing a new layout]**
+**Flashing a new layout**
 
 Make example for this keyboard (after setting up your build environment):
 
@@ -32,7 +32,7 @@ See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_to
 
 ________________________________________________________________________________________________________________________________________________________________
 
-**[Bill of Materials]**
+**Bill of Materials**
 
 | Part | Quantity |
 | --- | --- |
@@ -47,8 +47,10 @@ ________________________________________________________________________________
 | Cherry MX-compatible switches | 5|
 | Cherry MX-compatible keycaps | 5|
 
-**[Optional for LED lighting]**
+**Optional for LED lighting**
 
+| Part | Quantity |
+| --- | --- |
 | Single color LED (2x3x4mm or 1.8mm)| 5|
 | 330 Ohm Resistor | 6|
 | 10k Ohm Resistor |1|
