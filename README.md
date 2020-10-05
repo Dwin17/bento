@@ -16,6 +16,8 @@ ________________________________________________________________________________
 
 **Flashing a new layout**
 
+**DO NOT use QMK Configurator to create firmware for the Bento. The Bento located on QMK Configurator is only for the handwired version and will not work**
+
 Make example for this keyboard (after setting up your build environment):
 
     make bento:default
@@ -68,7 +70,7 @@ ________________________________________________________________________________
   - The controller may have gotten loose during transit. Please take off the bottom plate and push the Pro Micro controller into the PCB to ensure that it is fully inserted.
 
 * *The keypresses work on some switches but not on others or my rotary encoder isn't working*
-  - Please ensure that the Bento is flashed with the provided default firmware when testing for functionality. **DO NOT use QMK Configurator to create firmware for the Bento.**      The Bento located on QMK Configurator is only for the handwired version and will not work for keypresses or the rotary encoder. Please refer to this [Video Guide for creating macropad firmware manually.](https://www.youtube.com/watch?v=-HLV6mUxNnU&list=PLYEUsdlqPD2a3kzQgnF98Prj-4IzZJGYG).
+  - Please ensure that the Bento is flashed with the provided default firmware when testing for functionality. **DO NOT use QMK Configurator to create firmware for the Bento.** The Bento located on QMK Configurator is only for the handwired version and will not work for keypresses or the rotary encoder. Please refer to this [Video Guide for creating macropad firmware manually.](https://www.youtube.com/watch?v=-HLV6mUxNnU&list=PLYEUsdlqPD2a3kzQgnF98Prj-4IzZJGYG).
   
   **If you cannot build your own firmware, please contact me with a screenshot of your desired keymap and I can make the firmware for you.**
 
