@@ -16,7 +16,7 @@ ________________________________________________________________________________
 
 **Flashing a new layout**
 
-**DO NOT use QMK Configurator to create firmware for the Bento. The Bento located on QMK Configurator is only for the handwired version and will not work**
+*Please do not use QMK Configurator to create firmware for the Bento. The Bento located on QMK Configurator is only for the handwired version and will not work*
 
 Make example for this keyboard (after setting up your build environment):
 
