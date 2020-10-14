@@ -65,14 +65,24 @@ ________________________________________________________________________________
 
 **Troubleshooting Guide**
 
-* *My Bento isn't registering any keypresses*
+* *My Bento isn't registering ANY keypresses*
   - Please ensure that your micro-USB cable is plugged all the way in and you are using a working USB port
+  - Try a different cable. Make sure your cable can transfer data. 
   - The controller may have gotten loose during transit. Please take off the bottom plate and push the Pro Micro controller into the PCB to ensure that it is fully inserted.
 
 * *The keypresses work on some switches but not on others or my rotary encoder isn't working*
   - Please ensure that the Bento is flashed with the provided default firmware when testing for functionality. **DO NOT use QMK Configurator to create firmware for the Bento.** The Bento located on QMK Configurator is only for the handwired version and will not work for keypresses or the rotary encoder. Please refer to this [Video Guide for creating macropad firmware manually.](https://www.youtube.com/watch?v=-HLV6mUxNnU&list=PLYEUsdlqPD2a3kzQgnF98Prj-4IzZJGYG).
-  
+ 
   **If you cannot build your own firmware, please contact me with a screenshot of your desired keymap and I can make the firmware for you.**
+
+  - One of the Pro Micro's pins may not be properly contacting the PCB. To fix this, please take off the bottom plate, pull out the pro micro, and flip it over to the side where the pins meet the PCB. You'll want to bend the pins of the non-working switch(es) ever so slightly to make sure it contacts the PCB socket. You may want to use some tiny pliers or tweezers. Then push it back in making sure you didn't bend any other pins. It should work again!
+  
+ Pin Configuration: 
+
+ | RX1 | 4 | A3 |
+ |  6  | 15| 14 |
+ 
+ Example: If your bottom right key is not working, bend Pin 14 on the Pro Micro. 
 
 * *I can't flash the Bento on QMK Toolbox*
   - If you're seeing an error message along the lines of "*option requires an argument -- P*", please restart your computer and try flashing again.
@@ -92,4 +102,4 @@ ________________________________________________________________________________
 
 **NOTE:** If you have received a built Bento Macropad from me, it will be flashed with this layout by default: 
 
-![Layout](https://i.imgur.com/mCU8cno.png)
+![Layout](https://i.imgur.com/exSeW4t.png)
