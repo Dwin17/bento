@@ -78,9 +78,8 @@ ________________________________________________________________________________
   - One of the Pro Micro's pins may not be properly contacting the PCB. To fix this, please take off the bottom plate, pull out the pro micro, and flip it over to the side where the pins meet the PCB. You'll want to bend the pins of the non-working switch(es) ever so slightly to make sure it contacts the PCB socket. You may want to use some tiny pliers or tweezers. Then push it back in making sure you didn't bend any other pins. It should work again!
   
  Pin Configuration: 
-
- | RX1 | 4 | A3 |
- |  6  | 15| 14 |
+ 
+![Pins](https://i.imgur.com/SEvQf43.png)
  
  Example: If your bottom right key is not working, bend Pin 14 on the Pro Micro. 
 
