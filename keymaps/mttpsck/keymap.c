@@ -54,17 +54,18 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     /*
         |                |                        |  Knob:F10/F11 |
         |   LCtrl/F5     |       LShift/F9        |               |
-        |      F10       |          F11           |      F12      |
+        |   Breakpoints  |    Immediate Window    |      F12      |
      */
     [_DEBUG] = LAYOUT(
         LCTL_T(KC_F5), LSFT_T(KC_F9), TG(_DEBUG),
-        KC_F10, KC_F11, KC_F12
+        C(A(KC_B)), C(A(KC_I)), KC_F12
     ),
 };
 
 void matrix_scan_user(void) {
     int layer = biton32(layer_state);
     has_layer_changed = (current_layer == layer);
+    //https://beta.docs.qmk.fm/using-qmk/hardware-features/lighting/feature_rgblight#colors
     switch (layer){
         case _MEDIA:
             if (has_layer_changed) {
