@@ -63,6 +63,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 };
 
 void matrix_scan_user(void) {
+    if (rgblight_get_mode() != RGBLIGHT_MODE_STATIC_LIGHT) {
+        rgblight_mode(RGBLIGHT_MODE_STATIC_LIGHT);
+    }
     int layer = biton32(layer_state);
     has_layer_changed = (current_layer == layer);
     //https://beta.docs.qmk.fm/using-qmk/hardware-features/lighting/feature_rgblight#colors
