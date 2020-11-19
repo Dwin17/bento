@@ -1,7 +1,7 @@
 # Bento Macropad
 
 
-![Bento](https://i.imgur.com/Sd1PrTW.jpg)
+![Bento](https://i.imgur.com/rzgvkcN.jpg)
 
 
 The Bento Macropad is a 5-key macropad with rotary encoder designed by Dwin17 (Discord: **Dwin#3766**, Reddit: **nguyedt**) with PCB designed by coarse (keyboard.coarse.tech). 
@@ -10,7 +10,18 @@ The Bento Macropad is a 5-key macropad with rotary encoder designed by Dwin17 (D
 - Powered by QMK Firmware
 - EC11 Rotary Encoder
 - RGB Underglow
-- Per-key single color LEDs
+________________________________________________________________________________________________________________________________________________________________
+
+**FAQ**
+
+* Is this hotswap? 
+  - No. However, the pro micro can be "hotswapped" due to the staggered pin design on the PCB. You can also install mill max sockets for the switches.
+* Why won't ______ work? 
+  - Please see my troubleshooting guide below.
+* Do you sell kits?
+  - Not currently. However, I have added the gerber files if you want to print some PCBs for personal use. 
+* Can I swap out the pro micro for something else like an Elite C?
+  - Absolutely! You can also try using a different controller with similar footprint like the Proton C. You may be able to use the nice! Nano for bluetooth but there isn't much room in the case for a battery.
 
 ________________________________________________________________________________________________________________________________________________________________
 
@@ -75,7 +86,7 @@ ________________________________________________________________________________
  
   **If you cannot build your own firmware, please contact me with a screenshot of your desired keymap and I can make the firmware for you.**
 
-  - One of the Pro Micro's pins may not be properly contacting the PCB. To fix this, please take off the bottom plate, pull out the pro micro, and flip it over to the side where the pins meet the PCB. You'll want to bend the pins of the non-working switch(es) ever so slightly to make sure it contacts the PCB socket. You may want to use some tiny pliers or tweezers. Then push it back in making sure you didn't bend any other pins. It should work again!
+  - One of the Pro Micro's pins may not be properly contacting the PCB socket. Normally a soldered controller wouldn't exhibit this issue but since the pro micro is "hotswapped", the pins may be slightly misaligned. To fix this, please take off the bottom plate, pull out the pro micro, and flip it over to the side where the pins meet the PCB. You'll want to bend the pins of the non-working switch(es) ever so slightly to make sure it contacts the PCB socket. You'll want to use some tiny pliers or tweezers. Then push it back in making sure you didn't bend any other pins. It should work again!
   
  Pin Configuration: 
  
@@ -90,13 +101,14 @@ ________________________________________________________________________________
     - Check "Auto-Flash"
     - Press the Reset button on the bottom of the Bento twice quickly - but on the second press, hold it down for 3 seconds before letting go. 
     - After a few seconds, the Pro Micro should go into bootloader mode and automatically flash the firmware
-    - If this is not the case, repeat the previous steps. It may be helpful to unplug/replug the Bento and exit/reopen QMK Toolbox. Caution: It may take several tries to work         due to the finicky nature of Pro Micro clones.
+    - If this is not the case, repeat the previous steps. It may be helpful to unplug/replug the Bento and exit/reopen QMK Toolbox. Caution: It may take several tries to work due to the finicky nature of Pro Micro clones.
    - If it states that *Access is Denied* please try the method stated in the previous bullet point. Again, it may take several tries to work.
    
 * *The RGB lights aren't working*
   - Ensure that you have not turned it off on accident via a keypress.
   - Make sure the Pro Micro is fully inserted by taking off the bottom plate and pushing the Pro Micro into the PCB. 
   - The wiring for the lights may be damaged. Please contact me for further help.
+  - There may be a bent pin. Please see the instructions for fixing bent pins above. Possible pins you may need to bend back are GND (ground), VCC (power), or TX0 (data). 
 ________________________________________________________________________________________________________________________________________________________________
 
 **NOTE:** If you have received a built Bento Macropad from me, it will be flashed with this layout by default: 
