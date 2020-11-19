@@ -72,6 +72,8 @@ ________________________________________________________________________________
 
 [**Build Guide**](https://imgur.com/a/0jkQ31g)
 
+NOTE: I now recommend soldering the pro micro headers to the PCB first. This would then be followed by the switches and then the pro micro itself. This is to prevent a possible issue with bent pins not properly contacting the PCB pins. This will remove the hotswap capability of the controller. Alternatively, you can continue building per the guide but be prepared to bend a few pins with pliers per the troubleshooting guide below. 
+
 ________________________________________________________________________________________________________________________________________________________________
 
 **Troubleshooting Guide**
