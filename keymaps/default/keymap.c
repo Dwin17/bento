@@ -26,11 +26,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_LEFT, KC_DOWN, KC_RGHT 
     ),
     /*
-        |               |   Increase Brightness  |     Mute    |
-        |   RGB Cycle   |   Decrease Brightness  |  Hue Cycle  |
+        |               |   Increase Brightness  |     Play/Pause Media    |
+        |   RGB Cycle   |   Decrease Brightness  |         Hue Cycle       |
      */
     [1] = LAYOUT(
-        _______, RGB_VAI, KC_MUTE,
+        _______, RGB_VAI, KC_MPLY,
         RGB_MOD, RGB_VAD, RGB_HUI
     ),
 };
