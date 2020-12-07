@@ -22,17 +22,18 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         |      Left        |   Down   |      Right        |
      */
     [0] = LAYOUT(
-         MO(1) , KC_UP  , KC_MUTE,
-        KC_LEFT, KC_DOWN, KC_RGHT 
+        MO(1), KC_MYCM, KC_MUTE,
+        KC_MPRV , KC_MPLY  , KC_MNXT
     ),
     /*
-        |               |   Increase Brightness  |     Mute    |
-        |   RGB Cycle   |   Decrease Brightness  |  Hue Cycle  |
+        |               |   Increase Brightness  |     Mute   |
+        |    RGB Cycle  |   Decrease Brightness  |  Hue Cycle |
      */
     [1] = LAYOUT(
-        _______, RGB_VAI, KC_MUTE,
+        _______  , RGB_VAI, KC_MUTE,
         RGB_MOD, RGB_VAD, RGB_HUI
     ),
+
 };
 
 void encoder_update_user(uint8_t index, bool clockwise) {
