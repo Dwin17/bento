@@ -88,7 +88,7 @@ ________________________________________________________________________________
  
   **If you cannot build your own firmware, please contact me with a screenshot of your desired keymap and I can make the firmware for you.**
 
-  - One of the Pro Micro's pins may not be properly contacting the PCB socket. Normally a soldered controller wouldn't exhibit this issue but since the pro micro is "hotswapped", the pins may be slightly misaligned. To fix this, please take off the bottom plate, pull out the pro micro, and flip it over to the side where the pins meet the PCB. You'll want to bend the pins of the non-working switch(es) ever so slightly to make sure it contacts the PCB socket. You'll want to use some tiny pliers or tweezers. Then push it back in making sure you didn't bend any other pins. It should work again!
+  - One of the Pro Micro's pins may not be properly contacting the PCB socket. Normally a soldered controller wouldn't exhibit this issue but since the pro micro is "hotswapped", the pins may be slightly misaligned. [To fix this, please take off the bottom plate, pull out the pro micro, and flip it over to the side where the pins meet the PCB. You'll want to bend the pins of the non-working switch(es) ever so slightly to make sure it contacts the PCB socket. You'll want to use some tiny pliers or tweezers. Then push it back in making sure you didn't bend any other pins. It should work again!](https://imgur.com/a/t0O9hgD)
   
  Pin Configuration: 
  
