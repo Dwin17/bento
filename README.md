@@ -14,14 +14,17 @@ ________________________________________________________________________________
 
 **FAQ**
 
+* What is that metal case in the first image?
+  - It is an aluminum case that I has machined by a friend of mine which I sanded and polished. I don't plan to have a group buy for it but feel free to use the models I've provided to make your own!
 * Is this hotswap? 
   - No. However, the pro micro can be "hotswapped" due to the staggered pin design on the PCB. You can also install mill max sockets for the switches.
 * Why won't ______ work? 
   - Please see my troubleshooting guide below.
 * Do you sell kits?
-  - Not currently. However, I have added the gerber files if you want to print some PCBs for personal use. 
+  - Not currently. However, I have added the gerber files if you want to print some PCBs for personal use. Please contact me first if you plan to run a group buy. 
 * Can I swap out the pro micro for something else like an Elite C?
   - Absolutely! You can also try using a different controller with similar footprint like the Proton C. You may be able to use the nice! Nano for bluetooth but there isn't much room in the case for a battery.
+
 
 ________________________________________________________________________________________________________________________________________________________________
 
