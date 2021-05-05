@@ -17,17 +17,18 @@
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     /*
-        |                  |          | Knob 2: Vol Up/Dn |
-        |  Toggle Layer 1  |    Up    |    Press: Mute    |
-        |      Left        |   Down   |      Right        |
+        |                  |              | Knob : Vol Up/Dn  |
+        |  Toggle Layer 1  |   Browser Search    |    Press: Mute    |
+        |  Browser Back    |   Browser Refresh   |   Browser Forward |
      */
     [0] = LAYOUT(
-        MO(1), KC_MYCM, KC_MUTE,
-        KC_MPRV , KC_MPLY  , KC_MNXT
+        MO(1), KC_WSCH, KC_MUTE,
+        KC_WBAK , KC_WREF  , KC_WFWD
     ),
     /*
-        |               |   Increase Brightness  |     Toggle RGB   |
-        |    RGB Cycle  |   Increase Brightness  |  Hue Cycle |
+        |               |                        | Knob : Page Up/Dn |
+        |               |   Increase Brightness  |     Toggle RGB    |
+        |    RGB Cycle  |   Increase Brightness  |  Hue Cycle        |
      */
     [1] = LAYOUT(
         _______  , KC_RSFT, RESET,
@@ -46,9 +47,9 @@ void encoder_update_user(uint8_t index, bool clockwise) {
     }
     else if (layer_state_is(1)) {
         if (clockwise) {
-            tap_code(KC_PGUP);
+            tap_code(KC_UP);
         } else {
-            tap_code(KC_PGDN);
+            tap_code(KC_DOWN);
         }
     }
 }
