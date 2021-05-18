@@ -22,10 +22,6 @@ enum layer_names {
   _VIA3
 };
 
-enum custom_keycodes {
-  KC_CUST = SAFE_RANGE,
-};
-
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     /*
         |                  |              | Knob : Vol Up/Dn  |
@@ -65,17 +61,6 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
 
 };
-
-bool process_record_user(uint16_t keycode, keyrecord_t *record) {
-  switch(keycode) {
-    case KC_CUST: //custom macro
-      if (record->event.pressed) {
-        SEND_STRING("I love QMK with VIA!");
-      }
-    break;
-  }
-return true;
-}
 
 void encoder_update_user(uint8_t index, bool clockwise) {
     if (layer_state_is(0)) {
