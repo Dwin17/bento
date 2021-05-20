@@ -15,6 +15,8 @@ ________________________________________________________________________________
 
 **FAQ**
 
+* Can you post a compiled firmware?
+  - https://github.com/c0qu1/bento/releases
 * Is this project original from c0qu1?
   - No. You can find the forked project here: https://github.com/Dwin17/bento
   - Also would like to credit @mttpsck on GitHub for the content of the 4 layers
