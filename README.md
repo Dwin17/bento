@@ -25,6 +25,8 @@ ________________________________________________________________________________
   - Almost, the rotary encoder is not supported by VIA. The firmware provides support for the rotary encoder that works while also supporting VIA on the 4 contiguous keys, and the rotary encoder built in button. The 5th key is used to cycle through all the layers and this is not supported by VIA since it is a custom function in QMK.
 * Why won't ______ work? 
   - Please see the troubleshooting guide on the original project, see above.
+* VIA won't recognize my Bento, why?
+  - You must import the keymaps/via/bento.json file into VIA everytime you open VIA, until the Bento Macropad is officially added to VIA this will be required.
 
 ________________________________________________________________________________________________________________________________________________________________
 
