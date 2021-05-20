@@ -11,6 +11,7 @@ The Bento Macropad is a 5-key macropad with rotary encoder designed by Dwin17 (D
 - EC11 Rotary Encoder
 - RGB Underglow
 - VIA support (added by c0qu1)
+- Pro Micro microcontroller was upgraded with qmk-dfu bootloader to avoid opening the Bento to press reset, just have to unplugged USB, hold the upper left key and plug it to PC.
 ________________________________________________________________________________________________________________________________________________________________
 
 **FAQ**
