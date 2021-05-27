@@ -71,6 +71,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
   #define RGBLIGHT_LAYERS
   #define RGBLIGHT_MAX_LAYERS 5
   #define RGBLIGHT_LAYERS_OVERRIDE_RGB_OFF
+  #define RGBLIGHT_DEFAULT_MODE RGBLIGHT_MODE_TWINKLE
 #endif
 
 /* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */

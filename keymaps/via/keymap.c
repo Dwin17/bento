@@ -47,11 +47,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
     /*
         |               |                        |  Knob : Windows    |
-        | Slack Status  |    Zoom Toggle Mute    | Transparent        |
+        | Slack Status  |    Zoom Toggle Mute    |     Enter          |
         |  WinScrnSht   |        Task View       |  Cycle Layers      |
      */
     [_MACRO] = LAYOUT(
-        C(S(KC_Y)), A(KC_A), _______,
+        C(S(KC_Y)), A(KC_A), KC_ENT,
         G(S(KC_S)), G(KC_TAB), KC_CYCLE_LAYERS
     ),
     /*
@@ -71,15 +71,15 @@ const rgblight_segment_t PROGMEM my_layer0_layer[] = RGBLIGHT_LAYER_SEGMENTS(
 );
 // Light LED 1 in cyan when keyboard layer 1 is active
 const rgblight_segment_t PROGMEM my_layer1_layer[] = RGBLIGHT_LAYER_SEGMENTS(
-    {1, 1, HSV_CYAN}
+    {0, 1, HSV_CYAN}
 );
 // Light LED 2 in purple when keyboard layer 2 is active
 const rgblight_segment_t PROGMEM my_layer2_layer[] = RGBLIGHT_LAYER_SEGMENTS(
-    {1, 1, HSV_PURPLE}
+    {0, 1, HSV_PURPLE}
 );
 // Light LED 3 in green when keyboard layer 3 is active
 const rgblight_segment_t PROGMEM my_layer3_layer[] = RGBLIGHT_LAYER_SEGMENTS(
-    {1, 1, HSV_RED}
+    {0, 0, HSV_RED}
 );
 
 const rgblight_segment_t* const PROGMEM my_rgb_layers[] = RGBLIGHT_LAYERS_LIST(
@@ -160,9 +160,7 @@ void encoder_update_user(uint8_t index, bool clockwise) {
             break;
         case _BROWSER:
             register_code(KC_LCTRL);
-            register_code(KC_LGUI);
-            clockwise ? tap_code(KC_RGHT) : tap_code(KC_LEFT);
-            unregister_code(KC_LGUI);
+            clockwise ? tap_code(KC_PGUP) : tap_code(KC_PGDOWN);
             unregister_code(KC_LCTRL);
             break;
         case _MACRO:
