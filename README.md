@@ -22,7 +22,7 @@ ________________________________________________________________________________
   - No. You can find the forked project here: https://github.com/Dwin17/bento
   - Also would like to credit @mttpsck on GitHub for the content of the 4 layers
 * Is the VIA support working perfectly?
-  - Almost, the rotary encoder is not supported by VIA. The firmware provides support for the rotary encoder that works while also supporting VIA on the 4 contiguous keys, and the rotary encoder built in button. The 5th key is used to cycle through all the layers and this is not supported by VIA since it is a custom function in QMK.
+  - Almost, the rotary encoder is not supported by VIA. The firmware provides support for the rotary encoder that works while also supporting VIA on the 4 contiguous keys, and the rotary encoder built in button. The 5th key is used to cycle through all the layers and this is not supported by VIA since it is a custom function in QMK. The layer switching key was removed from the VIA layout to prevent an accidental modification of it.
 * Why won't ______ work? 
   - Please see the troubleshooting guide on the original project, see above.
 * VIA won't recognize my Bento, why?
