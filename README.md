@@ -11,7 +11,7 @@ The Bento Macropad is a 5-key macropad with rotary encoder designed by Dwin17 (D
 - EC11 Rotary Encoder
 - RGB Underglow
 - VIA support (added by c0qu1)
-- Pro Micro microcontroller was upgraded with qmk-dfu bootloader to avoid opening the Bento to press reset, just have to unplugged USB, hold the upper left key and plug it to PC.
+- Pro Micro microcontroller was upgraded with qmk-dfu bootloader to avoid opening the Bento to press reset, just have to unplugged USB, hold the upper left key and plug it to PC. If your Pro-Micro has the default Caterina bootloader the change is very simple in the rules.mk file, you can also download a precompiled firmware for the Caterina bootloader.
 ________________________________________________________________________________________________________________________________________________________________
 
 **FAQ**
