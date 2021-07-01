@@ -1,0 +1,13 @@
+{
+    "name": "BENTO MACROPAD",
+    "vendorId": "0x6E67",
+    "productId": "0x2133",
+    "lighting": "qmk_rgblight",
+    "matrix": { "rows": 2, "cols": 3 },
+    "layouts": {
+        "keymap": [
+            ["0,0", "0,1", "0,2"],
+            ["1,0", "1,1"]
+        ]
+    }
+}

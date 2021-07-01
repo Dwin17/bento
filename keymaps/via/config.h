@@ -56,14 +56,22 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define RGB_DI_PIN D3
 #ifdef RGB_DI_PIN
-  #define RGBLED_NUM 11
+  #undef RGBLED_NUM
+  #define RGBLED_NUM 3
   #define RGBLIGHT_HUE_STEP 8
   #define RGBLIGHT_SAT_STEP 8
   #define RGBLIGHT_VAL_STEP 8
   #define RGBLIGHT_LIMIT_VAL 255 /* The maximum brightness level */
   #define RGBLIGHT_SLEEP  /* If defined, the RGB lighting will be switched off when the host goes to sleep */
   /*== all animations enable ==*/
-  #define RGBLIGHT_ANIMATIONS
+  /* #define RGBLIGHT_ANIMATIONS */
+  #define RGBLIGHT_EFFECT_TWINKLE
+  #define RGBLIGHT_EFFECT_KNIGHT
+  #define RGBLIGHT_EFFECT_KNIGHT_LENGTH 2
+  #define RGBLIGHT_LAYERS
+  #define RGBLIGHT_MAX_LAYERS 5
+  #define RGBLIGHT_LAYERS_OVERRIDE_RGB_OFF
+  #define RGBLIGHT_DEFAULT_MODE RGBLIGHT_MODE_TWINKLE
 #endif
 
 /* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
