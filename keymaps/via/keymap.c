@@ -152,7 +152,7 @@ void change_RGB(bool clockwise) {
     }
 }
 
-void encoder_update_user(uint8_t index, bool clockwise) {
+bool encoder_update_user(uint8_t index, bool clockwise) {
     switch (biton32(layer_state))
     {
         case _MEDIA:
@@ -177,4 +177,5 @@ void encoder_update_user(uint8_t index, bool clockwise) {
             change_RGB(clockwise);
             break;
     }
+    return true;
 }
