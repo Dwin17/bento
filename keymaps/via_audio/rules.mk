@@ -1,0 +1,4 @@
+VIA_ENABLE = yes
+AUDIO_ENABLE = yes
+KEY_LOCK_ENABLE = no
+LTO_ENABLE = yes

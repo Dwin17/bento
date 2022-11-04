@@ -1,0 +1,42 @@
+{
+  "name": "BENTO MACROPAD",
+  "vendorProductId": 1852252467,
+  "macros": [
+    "snare_doubtful_lyra_sumatra{KC_ENT}",
+    "My.G1rls.B3x.4nd.Z03",
+    "{KC_LCTL,KC_LALT,KC_M}",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "layers": [
+    ["MACRO00", "KC_MPLY", "KC_MUTE", "MACRO01", "KC_MNXT", "0x5d28"],
+    [
+      "KC_WWW_BACK",
+      "KC_WWW_FORWARD",
+      "MACRO02",
+      "C(S(KC_TAB))",
+      "C(KC_TAB)",
+      "0x5d28"
+    ],
+    [
+      "C(S(KC_Y))",
+      "CLICKY_RESET",
+      "CLICKY_TOGGLE",
+      "S(LWIN(SWIN(KC_S)))",
+      "MU_TOG",
+      "0x5d28"
+    ],
+    ["RGB_MOD", "KC_RSFT", "RGB_TOG", "RGB_HUI", "RGB_VAI", "0x5d28"]
+  ]
+}
